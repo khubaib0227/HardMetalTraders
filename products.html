@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - HMT Tools | Professional Hardware Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> 1-800-HMT-TOOL</span>
+                    <span><i class="fas fa-envelope"></i> sp.hmt.01@gmail.com</span>
+                </div>
+                <div class="top-links">
+                    <a href="index.html#support">Support</a>
+                    <a href="index.html#dealer">Find a Dealer</a>
+                    <a href="index.html#login">Login</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="hmtlogotagline.png" alt="HMT Tools Logo" class="logo-image"></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li ><a href="about.html">ABOUT</a></li>
+                    <li class="active-page"><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="support.html">SUPPORT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <a href="https://wa.me/923270177567?text=Hi%2C%20I%20need%20information%20about%20the%20Products." class="quote-btn" target="_blank" rel="noopener">Get Quote Now</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Products Hero Section -->
+    <section class="hero hero-secondary products-hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Our Complete Product Line</h2>
+                <p>Everything you need for professional-grade performance</p>
+                <p class="hero-subtext">Featuring premium tools from industry-leading brands including Dormer Pramet - renowned for high-precision cutting tools, solid carbide drills, and innovative machining solutions trusted by professionals worldwide.</p>
+                <a href="#our-product-line" class="btn btn-primary">Browse Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-showcase-section" aria-labelledby="productDemoHeading">
+        <div class="container">
+            <h2 id="productDemoHeading" class="visually-hidden">Product Demonstration Video</h2>
+            <div class="video-showcase-container product-video-wrapper" data-video>
+                <div class="video-aspect-ratio">
+                    <iframe 
+                        src="https://www.youtube-nocookie.com/embed/ByVYS9vBBLM?rel=0&modestbranding=1" 
+                        title="Product Demonstration Video" 
+                        frameborder="0" 
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div id="videoCaption" class="video-caption">High precision tooling in action – watch a brief overview of our manufacturing and inspection workflow.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="products-filter-section">
+        <div class="container">
+            <div class="filter-bar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="productSearch" placeholder="Search products by name or SKU..." class="search-input">
+                </div>
+                <div class="filter-controls">
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="">All Categories</option>
+                        <option value="hand-tools">Hand Tools</option>
+                        <option value="power-tools">Power Tools</option>
+                        <option value="cutting-tools">Cutting Tools</option>
+                        <option value="measuring-tools">Measuring Tools</option>
+                        <option value="storage">Storage Solutions</option>
+                    </select>
+                    <button class="btn btn-secondary" onclick="resetFilters()">Reset Filters</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tools Section -->
+    <section class="featured-tools-section">
+        <div class="container">
+            <h2 class="section-title">Best Sellers</h2>
+            <div class="featured-tools-grid">
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/disc-grey-s.png" alt="Oasis Metal Cutting Disc Grey Smooth">
+                        <div class="tool-badge gold">Top Seller</div>
+                    </div>
+                    <h3>Oasis Metal Cutting Disc – Grey (Smooth Surface)</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.8 (95 reviews)</p>
+                    <p class="tool-specs">Smooth-finish cutting disc for fast, precise cuts on metal with minimal burr</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Oasis%20Metal%20Cutting%20Disc%20-%20Grey%20(Smooth%20Surface)*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/disc-grey-l.png" alt="Oasis Metal Cutting Disc Grey Textured">
+                        <div class="tool-badge gold">Top Seller</div>
+                    </div>
+                    <h3>Oasis Metal Cutting Disc – Grey (Textured Surface)</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 4.9 (112 reviews)</p>
+                    <p class="tool-specs">Textured cutting disc offering extra grip and stability for heavy-duty tasks</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Oasis%20Metal%20Cutting%20Disc%20-%20Grey%20(Textured%20Surface)*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/disc-red-s.png" alt="Oasis Metal Grinding Disc Red Coarse">
+                        <div class="tool-badge gold">Best Seller</div>
+                    </div>
+                    <h3>Oasis Metal Grinding Disc – Red (Coarse Texture)</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.7 (88 reviews)</p>
+                    <p class="tool-specs">Coarse grinding disc for aggressive material removal and weld cleaning</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Oasis%20Metal%20Grinding%20Disc%20-%20Red%20(Coarse%20Texture)*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/disc-red-l.png" alt="Oasis Metal Grinding Disc Red Fine">
+                        <div class="tool-badge gold">Best Seller</div>
+                    </div>
+                    <h3>Oasis Metal Grinding Disc – Red (Fine Texture)</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 5.0 (76 reviews)</p>
+                    <p class="tool-specs">Fine-texture grinding disc for smoother finishing with controlled abrasion</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Oasis%20Metal%20Grinding%20Disc%20-%20Red%20(Fine%20Texture)*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/1108.jpg" alt="Digital Vernier Caliper - 150mm">
+                        <div class="tool-badge gold">Popular</div>
+                    </div>
+                    <h3>Digital Vernier Caliper - 150mm</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.9 (89 reviews)</p>
+                    <p class="tool-specs">High-precision digital caliper with LCD display and stainless-steel body</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Digital%20Vernier%20Caliper%20-%20150mm*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/1312.jpg" alt="Dial Caliper - 150mm">
+                        <div class="tool-badge gold">Best Value</div>
+                    </div>
+                    <h3>Dial Caliper - 150mm</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.6 (78 reviews)</p>
+                    <p class="tool-specs">Durable dial caliper with clear analog scale for precise measurement</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Dial%20Caliper%20-%20150mm*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/1205.jpg" alt="Stainless Steel Vernier Caliper - 150mm">
+                        <div class="tool-badge gold">Premium</div>
+                    </div>
+                    <h3>Stainless Steel Vernier Caliper - 150mm</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.7 (94 reviews)</p>
+                    <p class="tool-specs">Classic vernier caliper with dual measurement scales for reliable readings</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Stainless%20Steel%20Vernier%20Caliper%20-%20150mm*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/1115.jpg" alt="Digital Vernier Caliper - Premium Model">
+                        <div class="tool-badge gold">Recommended</div>
+                    </div>
+                    <h3>Digital Vernier Caliper - Premium Model</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.9 (145 reviews)</p>
+                    <p class="tool-specs">High-accuracy digital caliper with reinforced frame and quick-read LCD</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Digital%20Vernier%20Caliper%20-%20Premium%20Model*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/2278-180.jpg" alt="Combination Square Set - 180mm">
+                        <div class="tool-badge gold">Multi-Purpose</div>
+                    </div>
+                    <h3>Combination Square Set - 180mm</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> 4.7 (103 reviews)</p>
+                    <p class="tool-specs">Multi-purpose measuring tool with square head, protractor, and center finder</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Combination%20Square%20Set%20-%20180mm*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+
+                <div class="featured-tool">
+                    <div class="tool-image-wrapper">
+                        <img src="products-images/3109-25A.jpg" alt="Digital Outside Micrometer - 0-25mm">
+                        <div class="tool-badge gold">Precision</div>
+                    </div>
+                    <h3>Digital Outside Micrometer - 0-25mm</h3>
+                    <p class="rating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i> 5.0 (56 reviews)</p>
+                    <p class="tool-specs">High-accuracy micrometer with digital LCD readout and carbide measuring faces</p>
+                    <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Digital%20Outside%20Micrometer%20-%200-25mm*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Elite Cutting & Tooling Systems -->
+    <section class="elite-cutting-section">
+        <div class="container">
+            <h2 class="section-title">Elite Cutting & Tooling Systems</h2>
+            <p class="section-subtitle">Precision-engineered cutting tools and indexable systems for modern CNC machining</p>
+            
+            <!-- Solid Carbide Drills -->
+            <div class="tooling-category">
+                <div class="category-image">
+                    <img src="products-images/Cutting_tools_hole_making_group_drilling_tapping_reaming_hydra_drill-removebg-preview.png" alt="Solid Carbide Drills">
+                </div>
+                <div class="category-content">
+                    <h3 class="category-title">Solid Carbide Drills</h3>
+                    <div class="tooling-grid">
+                        <div class="tooling-card">
+                            <h4>Solid Carbide Drills</h4>
+                            <p>High-precision drills for fast, accurate hole-making in metals.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Solid Carbide End Mills</h4>
+                            <p>Durable end mills for roughing and finishing in CNC machining.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Coated End Mills</h4>
+                            <p>Heat-resistant coated mills for cutting hard and stainless materials.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Carbide Burrs</h4>
+                            <p>Rotary burrs for deburring, shaping, and fine surface finishing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indexable Tool Holders -->
+            <div class="tooling-category reverse">
+                <div class="category-image">
+                    <img src="products-images/Indexable_tool_holders_for_parting_turning_milling_and_drilling-removebg-preview.png" alt="Indexable Tool Holders">
+                </div>
+                <div class="category-content">
+                    <h3 class="category-title">Indexable Tool Holders</h3>
+                    <div class="tooling-grid">
+                        <div class="tooling-card">
+                            <h4>Indexable Milling Cutters</h4>
+                            <p>Milling bodies with replaceable inserts for efficient metal removal.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Indexable End Mill Holders</h4>
+                            <p>Heavy-duty holders designed for precision CNC milling.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Turning Tool Holders</h4>
+                            <p>Rigid holders for external turning, facing, and profiling.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Threaded Indexable Cutters</h4>
+                            <p>Compact insert-based cutters for tight-space machining.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- U-Drill & Milling Tools -->
+            <div class="tooling-category">
+                <div class="category-image">
+                    <img src="products-images/Milling_Cutter_and_U_Drill_and_Parting_Tool_Holder_with_inserts-removebg-preview.png" alt="U-Drill & Milling Tools">
+                </div>
+                <div class="category-content">
+                    <h3 class="category-title">U-Drill & Milling Tools</h3>
+                    <div class="tooling-grid">
+                        <div class="tooling-card">
+                            <h4>Indexable Face Mill</h4>
+                            <p>High-performance cutter for smooth and fast face milling.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>U-Drill (Insert Drill)</h4>
+                            <p>Insert-based drill delivering deep, accurate holes with great chip control.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Parting/Grooving Tool Holder</h4>
+                            <p>Stable holder for clean, precise parting and grooving on CNC lathes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indexable Face Milling Cutter -->
+            <div class="tooling-category reverse">
+                <div class="category-image">
+                    <img src="products-images/Milling_Cutter_2-removebg-preview.png" alt="Indexable Face Milling Cutter">
+                </div>
+                <div class="category-content">
+                    <h3 class="category-title">Indexable Face Milling Cutter</h3>
+                    <div class="tooling-description">
+                        <p>A durable face milling cutter with multiple carbide inserts for smooth, efficient material removal and improved surface finish.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Face Milling Cutter with Inserts -->
+            <div class="tooling-category">
+                <div class="category-image">
+                    <img src="products-images/Milling_Cutter-removebg-preview.png" alt="Face Milling Cutter with Inserts">
+                </div>
+                <div class="category-content">
+                    <h3 class="category-title">Face Milling Cutter with Inserts</h3>
+                    <div class="tooling-description">
+                        <p>A versatile milling cutter equipped with interchangeable carbide inserts, designed for reliable performance across various machining tasks.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Parting Tool Holder & Milling Cutter Set -->
+            <div class="tooling-category reverse">
+                <div class="category-image">
+                    <img src="products-images/parting_tool_holder_and_Milling_Tool_Holder-removebg-preview.png" alt="Parting Tool Holder & Milling Cutter Set">
+                </div>
+                <div class="category-content">
+                    <h3 class="category-title">Parting Tool Holder & Milling Cutter Set</h3>
+                    <div class="tooling-description">
+                        <p class="main-description">A compact tool set featuring a parting tool holder, profiling holder, and an indexable milling cutter for precise cutting and machining work.</p>
+                    </div>
+                    <div class="tooling-grid">
+                        <div class="tooling-card">
+                            <h4>Parting Tool Holder (Left)</h4>
+                            <p>A sturdy parting tool holder designed for stable and accurate cutoff operations, providing secure insert clamping and smooth cutting performance.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Profiling/Turning Tool Holder (Middle)</h4>
+                            <p>A rigid profiling and turning tool holder ideal for contouring and general turning tasks, offering strong insert support and reliable machining accuracy.</p>
+                        </div>
+                        <div class="tooling-card">
+                            <h4>Indexable Milling Tool Holder (Right)</h4>
+                            <p>A high-performance milling tool holder fitted with multiple carbide inserts, delivering efficient material removal and excellent surface finish.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dormer Pramet Product Range -->
+    <section class="dormer-pramet-section">
+        <div class="container">
+            <div class="dormer-header">
+                <h2 class="section-title">Dormer Pramet Product Range</h2>
+                <p class="section-subtitle">Premium cutting tools engineered for precision, performance, and productivity. Trusted by professionals worldwide for superior quality and reliability.</p>
+            </div>
+
+            <div class="dormer-products-grid">
+                <!-- Carbide End Mill -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Carbide_End_Mill-removebg-preview.png" alt="Carbide End Mill">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Carbide End Mill</h3>
+                        <p>High-performance solid carbide end mills designed for precision milling operations. Features superior wear resistance and extended tool life for demanding applications.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Carbide%20End%20Mill*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Centre Drill -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Centre_Drill-removebg-preview.png" alt="Centre Drill">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Centre Drill</h3>
+                        <p>Precision centre drills for creating accurate starting points in turning and drilling operations. Ensures proper alignment and prevents drill bit wandering.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Centre%20Drill*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- End Mill -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/End_Mil-removebg-preview.png" alt="End Mill">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>End Mill</h3>
+                        <p>Versatile end mills for general-purpose machining, profiling, and slotting. Optimized geometry for smooth cutting action and excellent surface finish.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*End%20Mill*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- HSS Cobalt Taper -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/HSS_Cobalt_Taper-removebg-preview.png" alt="HSS Cobalt Taper">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>HSS Cobalt Taper</h3>
+                        <p>Premium cobalt high-speed steel drills with enhanced heat resistance. Ideal for drilling hard materials including stainless steel and high-strength alloys.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*HSS%20Cobalt%20Taper*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- HSS Die -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/HSS_Die-removebg-preview.png" alt="HSS Die">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>HSS Die</h3>
+                        <p>High-speed steel threading dies for creating external threads. Precision-ground for accurate thread formation and long service life in various materials.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*HSS%20Die*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- HSS Square Tool Bit -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/HSS_Sqaure_Tool_Bit-removebg-preview.png" alt="HSS Square Tool Bit">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>HSS Square Tool Bit</h3>
+                        <p>Durable square tool bits for lathe turning operations. Ground from premium high-speed steel for superior edge retention and versatile machining applications.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*HSS%20Square%20Tool%20Bit*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Long Drill -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Long_Drill-removebg-preview.png" alt="Long Drill">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Long Drill</h3>
+                        <p>Extended length drills for deep hole drilling applications. Features precision ground flutes for effective chip evacuation and straight hole accuracy.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Long%20Drill*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Shell End Mill Cutter -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Shell_end_mill_cutter-removebg-preview.png" alt="Shell End Mill Cutter">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Shell End Mill Cutter</h3>
+                        <p>Heavy-duty shell end mills for large-scale face milling operations. Cost-effective solution with replaceable cutter heads for high material removal rates.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Shell%20End%20Mill%20Cutter*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Slot Drilling Set -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/slot_drilling_set-removebg-preview.png" alt="Slot Drilling Set">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Slot Drilling Set</h3>
+                        <p>Complete set of slot drills for keyway cutting and side milling. Multiple sizes included for versatile machining applications and professional workshop use.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Slot%20Drilling%20Set*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Tap -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Tap-removebg-preview (1).png" alt="Tap">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Precision Tap</h3>
+                        <p>High-quality threading tap for creating accurate internal threads. Engineered with optimized flute design for efficient chip removal and clean thread formation.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Precision%20Tap*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Tap 2 -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/tap2-removebg-preview.png" alt="Spiral Tap">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Spiral Flute Tap</h3>
+                        <p>Advanced spiral flute tap for through-hole threading applications. Superior chip evacuation and reduced cutting forces for improved thread quality.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Spiral%20Flute%20Tap*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Taps Set -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Taps-removebg-preview.png" alt="Taps Set">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Professional Taps Set</h3>
+                        <p>Comprehensive tap set including taper, plug, and bottom taps. Essential for professional threading work across various materials and applications.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Professional%20Taps%20Set*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Tap Handle -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Tap_Handle-removebg-preview.png" alt="Tap Handle">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Adjustable Tap Handle</h3>
+                        <p>Professional-grade tap wrench with adjustable jaws for secure tap holding. Ergonomic T-handle design provides excellent leverage and control during threading.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Adjustable%20Tap%20Handle*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Tap Set -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Tap_Set-removebg-preview.png" alt="Tap Set">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Metric Tap Set</h3>
+                        <p>Complete metric tap and die set for comprehensive threading capabilities. Includes organized storage case for easy identification and protection.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Metric%20Tap%20Set*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Tap Set 4 -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Tap_set_4-removebg-preview.png" alt="Tap Set 4">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Premium Tap Set</h3>
+                        <p>Professional 4-piece tap set with precision-ground threads. Ideal for maintenance workshops and production environments requiring consistent threading quality.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Premium%20Tap%20Set*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Tap Set 5 -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/tap_set_5-removebg-preview.png" alt="Tap Set 5">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Master Tap Collection</h3>
+                        <p>Extensive 5-piece tap collection covering the most common thread sizes. Premium quality construction ensures reliable performance and long tool life.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Master%20Tap%20Collection*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Woodruff Cutter -->
+                <div class="dormer-product-card">
+                    <div class="dormer-product-image">
+                        <img src="dormer_products/Woodruff_cutter-removebg-preview.png" alt="Woodruff Cutter">
+                    </div>
+                    <div class="dormer-product-content">
+                        <h3>Woodruff Cutter</h3>
+                        <p>Specialized cutter for creating precise Woodruff keyway slots. Designed for accurate keyseat cutting in shafts with consistent depth and width control.</p>
+                        <a href="https://wa.me/923270177567?text=Hi%2C%20I%27m%20interested%20in%3A%0A%0A*Woodruff%20Cutter*%0A%0APlease%20send%20me%20more%20details." class="btn btn-primary" target="_blank" rel="noopener">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-grid-section" id="our-product-line">
+        <div class="container">
+            <h2 class="section-title">Our Product Line</h2>
+            <div id="productsGrid" class="products-grid-large">
+                <!-- Products will be loaded by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="products-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need a Custom Solution?</h2>
+                <p>Our solutions team can help you build the perfect toolkit for your specific needs</p>
+                <a href="https://wa.me/923270177567" class="btn btn-secondary" target="_blank" rel="noopener">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="logo hmt.png" alt="HMT Tools Logo"></a>
+                    </div>
+                    <h3>HARD METAL TRADERS</h3>
+                    <p>Your trusted partner for professional quality tools and hardware solutions.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="products.html#best-sellers">Hand Tools</a></li>
+                        <li><a href="products.html#best-sellers">Power Tools</a></li>
+                        <li><a href="products.html#best-sellers">Cutting Tools</a></li>
+                        <li><a href="products.html#best-sellers">Measuring Tools</a></li>
+                        <li><a href="products.html#best-sellers">Storage Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html?inquiry=careers#contactForm">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="support.html">Product Support</a></li>
+                        <li><a href="support.html#warranty">Warranty Info</a></li>
+                        <li><a href="support.html#downloads">Downloads</a></li>
+                        <li><a href="support.html#faq">FAQ</a></li>
+                        <li><a href="contact.html">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-contact-map">
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 14-B Davis Road, opposite Total Petrol Pump، Garhi Shahu, Lahore, Punjab 54000</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sp.hmt.01@gmail.com">sp.hmt.01@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+923270177567">0327-0177567</a></p>
+                </div>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps?q=14-B+Davis+Road+Garhi+Shahu+Lahore&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hard Metal Traders (HMT). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Product data
+        const products = [
+            { id: 26, name: 'Oasis Metal Cutting Disc – Grey (Smooth Surface)', category: 'cutting-tools', price: 24.99, rating: 4.8, reviews: 95, image: 'products-images/disc-grey-s.png', sku: 'OASIS-CUT-GS', description: 'Smooth-finish cutting disc for fast, precise cuts on metal. Ideal for clean slicing with minimal burr.' },
+            { id: 27, name: 'Oasis Metal Cutting Disc – Grey (Textured Surface)', category: 'cutting-tools', price: 24.99, rating: 4.9, reviews: 112, image: 'products-images/disc-grey-l.png', sku: 'OASIS-CUT-GT', description: 'Textured cutting disc offering extra grip and stability during heavy-duty metal cutting tasks.' },
+            { id: 28, name: 'Oasis Metal Grinding Disc – Red (Coarse Texture)', category: 'cutting-tools', price: 22.99, rating: 4.7, reviews: 88, image: 'products-images/disc-red-s.png', sku: 'OASIS-GRD-RC', description: 'Coarse grinding disc for aggressive material removal on metal surfaces. Perfect for shaping and weld cleaning.' },
+            { id: 29, name: 'Oasis Metal Grinding Disc – Red (Fine Texture)', category: 'cutting-tools', price: 22.99, rating: 5.0, reviews: 76, image: 'products-images/disc-red-l.png', sku: 'OASIS-GRD-RF', description: 'Fine-texture grinding disc designed for smoother finishing on metal with controlled abrasion.' },
+            { id: 25, name: 'Oasis Cutting Disc - Heavy Duty', category: 'cutting-tools', price: 19.99, rating: 4.5, reviews: 14, image: 'products-images/blade.png', sku: 'OASIS-CUT-HD', description: 'Heavy-duty cutting blade designed for professional use in metalworking, woodworking, and fabrication applications. Superior edge retention and durability.' },
+            { id: 30, name: 'Flexovit Grinding Wheel – 100×6×16 mm', category: 'cutting-tools', price: 29.99, rating: 4.8, reviews: 65, image: 'products-images/singleflexo.png', sku: 'FLEX-GRD-100', description: 'High-performance reinforced grinding wheel designed for heavy-duty metal grinding. Delivers stable performance, durability, and smooth cutting on a wide range of steel surfaces.' },
+            { id: 31, name: 'Flexovit LYNX Grinding Wheel – 125×6×22.23 mm', category: 'cutting-tools', price: 34.99, rating: 4.9, reviews: 82, image: 'products-images/flexo double.png', sku: 'FLEX-LYNX-125', description: 'Premium abrasive disc engineered for fast material removal and long service life. Ideal for industrial grinding, metal fabrication, and precision surface finishing.' },
+            { id: 1, name: 'Digital Vernier Caliper - 150mm', category: 'measuring-tools', price: 0, rating: 4.9, reviews: 89, image: 'products-images/1108.jpg', description: 'High-precision digital caliper for accurate inside, outside, and depth measurements. Features an LCD display, stainless-steel body, and smooth sliding mechanism.' },
+            { id: 2, name: 'Dial Caliper - 150mm', category: 'measuring-tools', price: 0, rating: 4.6, reviews: 78, image: 'products-images/1312.jpg', description: 'Durable dial caliper with clear analog scale for precise measurement. Ideal for machining, fabrication, and quality inspection.' },
+            { id: 3, name: 'Stainless Steel Vernier Caliper - 150mm', category: 'measuring-tools', price: 0, rating: 4.7, reviews: 94, image: 'products-images/1205.jpg', description: 'Classic vernier caliper with dual measurement scales. Provides reliable and repeatable readings in industrial environments.' },
+            { id: 4, name: 'Digital Vernier Caliper - Premium Model', category: 'measuring-tools', price: 0, rating: 4.9, reviews: 145, image: 'products-images/1115.jpg', description: 'High-accuracy digital caliper with reinforced frame and quick-read LCD. Suitable for professional engineering and workshop use.' },
+            { id: 5, name: 'Combination Square Set - 180mm', category: 'measuring-tools', price: 0, rating: 4.7, reviews: 103, image: 'products-images/2278-180.jpg', description: 'Multi-purpose measuring tool with square head, protractor, and center finder. Perfect for carpentry, metalwork, and engineering layout.' },
+            { id: 6, name: 'Dial Indicator - 0-10mm Range', category: 'measuring-tools', price: 0, rating: 4.8, reviews: 67, image: 'products-images/2322-160A.jpg', description: 'Precision dial gauge for measuring small linear displacements. Used in alignment, machine setup, and inspection tasks.' },
+            { id: 7, name: 'Dial Indicator - Large Face Type', category: 'measuring-tools', price: 0, rating: 4.7, reviews: 52, image: 'products-images/2308-10A.jpg', description: 'Clear, easy-to-read dial indicator providing accurate readings for professional metrology and machine alignment.' },
+            { id: 8, name: 'Bevel Protractor with Stainless Steel Blade', category: 'measuring-tools', price: 0, rating: 4.8, reviews: 41, image: 'products-images/2372.jpg', description: 'High-precision protractor ideal for angle measurement, layout work, and machining applications.' },
+            { id: 9, name: 'Feeler Gauge Set - 32 Blades', category: 'measuring-tools', price: 0, rating: 4.6, reviews: 85, image: 'products-images/4602.jpg', description: 'Flexible steel feeler gauge for checking gaps, clearances, and tolerances in engines and machinery.' },
+            { id: 10, name: 'Dial Test Indicator - Lever Type', category: 'measuring-tools', price: 0, rating: 4.9, reviews: 38, image: 'products-images/2364-10.jpg', description: 'Lever-style test indicator designed for measuring small surface deviations and alignment tasks.' },
+            { id: 11, name: 'Digital Outside Micrometer - 0-25mm', category: 'measuring-tools', price: 0, rating: 5.0, reviews: 56, image: 'products-images/3109-25A.jpg', description: 'High-accuracy micrometer with digital LCD readout, carbide measuring faces, and ratchet stop.' },
+            { id: 12, name: 'Mechanical Outside Micrometer - 25-50mm', category: 'measuring-tools', price: 0, rating: 4.7, reviews: 72, image: 'products-images/3203-50A.jpg', description: 'Rugged micrometer with thimble scale, friction ratchet, and hardened measuring anvils.' },
+
+            { id: 13, name: 'Engineer\'s Square - Precision Steel', category: 'measuring-tools', price: 0, rating: 4.8, reviews: 63, image: 'products-images/4790.jpg', description: 'High-accuracy square for checking 90 degree angles in machining, welding, and manufacturing.' },
+            { id: 14, name: 'Dial Thickness Gauge', category: 'measuring-tools', price: 0, rating: 4.7, reviews: 29, image: 'products-images/2365.jpg', description: 'Accurate gauge for measuring sheet metal, plastic, paper, and other materials with consistent thickness.' },
+            { id: 15, name: 'Magnetic Base Stand - Standard Model', category: 'measuring-tools', price: 0, rating: 4.8, reviews: 91, image: 'products-images/6200.jpg', description: 'Stable magnetic stand for holding dial indicators during inspection and alignment tasks.' },
+            { id: 16, name: 'Mechanical Outside Micrometer - 0-25mm', category: 'measuring-tools', price: 0, rating: 4.7, reviews: 108, image: 'products-images/3210-25A.jpg', description: 'Standard micrometer with friction thimble and carbide tips for professional measurement tasks.' },
+            { id: 17, name: 'Dial Height Gauge - 300mm', category: 'measuring-tools', price: 0, rating: 4.9, reviews: 44, image: 'products-images/6201.jpg', description: 'Used for vertical measurements and marking tasks on surface plates. Features dial-based fine adjustment.' },
+
+            { id: 18, name: 'Frame Spirit Level - Precision Industrial', category: 'measuring-tools', price: 0, rating: 4.8, reviews: 76, image: 'products-images/4902.jpg', description: 'Heavy-duty precision level ideal for machine installation, surface leveling, and workshop alignment.' },
+            { id: 19, name: 'Precision Straight Edge - 200mm', category: 'measuring-tools', price: 0, rating: 4.6, reviews: 58, image: 'products-images/4903-200A.jpg', description: 'High-accuracy steel straight edge for checking flatness and parallelism in workshop settings.' },
+            { id: 32, name: 'INSIZE Simple Height Gauge', category: 'measuring-tools', price: 0, rating: 4.8, reviews: 45, image: 'products-images/insizesimple.jpg', sku: 'INSIZE-SHG', description: 'Professional height gauge for precision vertical measurements on surface plates. Features smooth sliding mechanism and clear scale markings for accurate layout and inspection work.' },
+            
+            { id: 20, name: 'Dormer Pramet Force X - Solid Carbide Drill (Gen2)', category: 'cutting-tools', price: 89.99, rating: 4.8, reviews: 64, image: 'products-images/DOPA-Force-header-jpg (1).jpg', sku: 'FX-GEN2', description: 'Force X Generation 2 solid carbide drills: CTW flute design, 4-facet split point and TiAlN top coating for superior hole quality and long tool life.' },
+            { id: 21, name: 'Dormer HSS Twist Drill (General Purpose)', category: 'cutting-tools', price: 14.99, rating: 4.6, reviews: 112, image: 'https://m.media-amazon.com/images/I/51IKx5WhgbL._SY445_.jpg', sku: 'HSS-TWIST', description: 'High-quality HSS twist drills for general drilling in steels and non-ferrous materials; reliable, economical and widely used across industry.' },
+            { id: 22, name: 'Dormer Pramet Metric Thread Taps', category: 'cutting-tools', price: 24.99, rating: 4.7, reviews: 48, image: 'https://api.dormerpramet.com/medias/FORCE-description-vertical.png?context=bWFzdGVyfHJvb3R8MTY3ODAzfGltYWdlL3BuZ3xhRGRpTDJoa1lTODVOVEV5TmpnMk5EZzFOVE0wTDBaUFVrTkZYMlJsYzJOeWFYQjBhVzl1WDNabGNuUnBZMkZzTG5CdVp3fGY3NTMyZjFmYjk0NTJiNDY1ZGNkMDYwMDExYjc5MmFiNTQzOGQ1NWQyMTMzZjIzYzljNjUxMmExYTYyNWFmYTI&attachment=true', sku: 'TAP-METRIC', description: 'Metric taps offering precise thread form and consistent results; suitable for standard production and repair work.' },
+            { id: 23, name: 'Dormer Solid Carbide End Mill', category: 'cutting-tools', price: 69.99, rating: 4.8, reviews: 37, image: 'https://api.dormerpramet.com/medias/RS403-tip.png?context=bWFzdGVyfHJvb3R8NjE2NTR8aW1hZ2UvcG5nfGFHVTNMMmhtWmk4NU5URXdOREV4TmprNE1qQTJMMUpUTkRBelgzUnBjQzV3Ym1jfDZmNzdjYTM5OTg5MjVlZGQxMjUyMjYyNWIzYjJmNmVhZWVkNjJiMWM0NDQ3ZjhjOTU5MWNkOWM2NmVkY2ZhMzQ&attachment=true', sku: 'SC-ENDMILL', description: 'Solid carbide end mill for high-speed milling and superior surface finish across a variety of materials.' },
+            { id: 24, name: 'Dormer Indexable Inserts - Assortment', category: 'cutting-tools', price: 129.99, rating: 4.7, reviews: 22, image: 'products-images/dormer.png', sku: 'IDX-ASSORT', description: 'Assorted indexable inserts for turning and milling; multiple grades and geometries for varied applications.' }
+        ];
+
+        function displayProducts(filteredProducts = products) {
+            const grid = document.getElementById('productsGrid');
+            grid.innerHTML = '';
+            
+            if (filteredProducts.length === 0) {
+                grid.innerHTML = '<p class="no-results">No products found. Try adjusting your filters.</p>';
+                return;
+            }
+
+                filteredProducts.forEach(product => {
+                const card = document.createElement('div');
+                card.className = 'product-card-large';
+                card.innerHTML = `
+                    <div class="product-image-large">
+                        <img src="${product.image}" alt="${product.name}">
+                    </div>
+                    <div class="product-info-large">
+                        <h3>${product.name}</h3>
+                        <p class="product-description">${product.description}</p>
+                        <a href="#" class="btn btn-secondary view-details" data-id="${product.id}">View Details</a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterProducts() {
+            const searchTerm = document.getElementById('productSearch').value.toLowerCase();
+            const category = document.getElementById('categoryFilter').value;
+
+            let filtered = products.filter(product => {
+                const matchesSearch = product.name.toLowerCase().includes(searchTerm);
+                const matchesCategory = !category || product.category === category;
+
+                return matchesSearch && matchesCategory;
+            });
+
+            displayProducts(filtered);
+        }
+
+        function resetFilters() {
+            document.getElementById('productSearch').value = '';
+            document.getElementById('categoryFilter').value = '';
+            displayProducts();
+        }
+
+        // Event listeners for filtering
+        document.getElementById('productSearch').addEventListener('input', filterProducts);
+        document.getElementById('categoryFilter').addEventListener('change', filterProducts);
+
+        // Display products on page load
+        displayProducts();
+
+        // Modal markup & behavior
+        const modalTemplate = `
+            <div id="productModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+                <div class="modal-content" role="document">
+                    <button class="modal-close" aria-label="Close product details">&times;</button>
+                    <div class="modal-body-wrapper">
+                        <div class="modal-media"><img src="" alt=""></div>
+                        <div class="modal-body">
+                            <h3 class="modal-title"></h3>
+                            <p class="modal-sku"></p>
+                            <p class="modal-rating"></p>
+                            <p class="modal-desc"></p>
+                            <div class="modal-actions">
+                                <div class="price modal-price"></div>
+                                <a href="https://wa.me/923270177567" id="modalWhatsAppBtn" class="btn btn-primary" target="_blank" rel="noopener">Contact to Buy</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Insert modal into document
+        document.body.insertAdjacentHTML('beforeend', modalTemplate);
+
+        const productModal = document.getElementById('productModal');
+        const modalClose = productModal.querySelector('.modal-close');
+
+        function openModal(product) {
+            productModal.setAttribute('aria-hidden', 'false');
+            productModal.style.display = 'block';
+            productModal.querySelector('.modal-media img').src = product.image;
+            productModal.querySelector('.modal-media img').alt = product.name;
+            productModal.querySelector('.modal-title').textContent = product.name;
+            productModal.querySelector('.modal-sku').textContent = product.sku ? ('SKU: ' + product.sku) : '';
+            productModal.querySelector('.modal-desc').textContent = product.description || '';
+            // Generate star rating display
+            const fullStars = Math.floor(product.rating);
+            const hasHalfStar = product.rating % 1 >= 0.5;
+            let starsHtml = '';
+            for (let i = 0; i < fullStars; i++) {
+                starsHtml += '<i class="fas fa-star"></i>';
+            }
+            if (hasHalfStar) {
+                starsHtml += '<i class="fas fa-star-half-alt"></i>';
+            }
+            productModal.querySelector('.modal-rating').innerHTML = `${starsHtml} ${product.rating} (${product.reviews} reviews)`;
+            productModal.querySelector('.modal-price').textContent = '$' + product.price.toFixed(2);
+            
+            // Update WhatsApp link with product details
+            const whatsappBtn = productModal.querySelector('#modalWhatsAppBtn');
+            const message = `Hi, I'm interested in:\n\n*${product.name}*${product.sku ? '\nSKU: ' + product.sku : ''}\n\nPlease send me more details.`;
+            const whatsappUrl = `https://wa.me/923270177567?text=${encodeURIComponent(message)}`;
+            whatsappBtn.href = whatsappUrl;
+            
+            // focus the close button for accessibility
+            modalClose.focus();
+        }
+
+        function closeModal() {
+            productModal.setAttribute('aria-hidden', 'true');
+            productModal.style.display = 'none';
+        }
+
+        // Delegate clicks from product grid to open modal
+        document.getElementById('productsGrid').addEventListener('click', function(e) {
+            const btn = e.target.closest('.view-details');
+            if (!btn) return;
+            e.preventDefault();
+            const id = parseInt(btn.getAttribute('data-id'), 10);
+            const product = products.find(p => p.id === id);
+            if (product) openModal(product);
+        });
+
+        // Close handlers
+        modalClose.addEventListener('click', closeModal);
+        productModal.addEventListener('click', function(e) {
+            if (e.target === productModal) closeModal();
+        });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && productModal.getAttribute('aria-hidden') === 'false') closeModal();
+        });
+    </script>
+    <a href="https://wa.me/923270177567?text=Hi%2C%20I%20need%20information%20about%20the%20Products." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-label" aria-hidden="true">Chat on WhatsApp</span>
+    </a>
+</body>
+</html>

@@ -1,0 +1,116 @@
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1504148455328-c376907d081c?w=1920&h=1080&fit=crop&q=90');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero .hero-overlay {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Mobile Responsiveness for Home Page */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .hero {
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero .hero-content {
+        padding: 15px;
+        width: 100%;
+    }
+    
+    .featured-categories {
+        padding: 50px 0;
+    }
+    
+    .campaign-section {
+        padding: 50px 0;
+    }
+    
+    .testimonials-section {
+        padding: 50px 0;
+    }
+    
+    .brands-section {
+        padding: 50px 0;
+    }
+    
+    .featured-products {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+        max-width: 100%;
+    }
+    
+    .hero {
+        height: 350px;
+    }
+    
+    .hero .hero-content {
+        padding: 10px;
+    }
+    
+    .hero .hero-content h2 {
+        font-size: 24px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    
+    .hero .hero-content p {
+        font-size: 14px;
+        margin-bottom: 18px;
+        line-height: 1.5;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 13px;
+        display: inline-block;
+    }
+    
+    .featured-categories,
+    .campaign-section,
+    .testimonials-section,
+    .brands-section,
+    .featured-products {
+        padding: 35px 0;
+    }
+    
+    .section-title {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .featured-category h3 {
+        font-size: 18px;
+    }
+    
+    .featured-category p {
+        font-size: 13px;
+    }
+}

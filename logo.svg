@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background -->
+  <rect width="120" height="120" fill="none"/>
+  
+  <!-- Shield Background -->
+  <path d="M 15 15 L 105 15 L 105 60 Q 105 90 60 110 Q 15 90 15 60 Z" fill="#FFD700" stroke="#1a1a1a" stroke-width="2.5"/>
+  
+  <!-- Inner Shield Border -->
+  <path d="M 22 22 L 98 22 L 98 58 Q 98 82 60 100 Q 22 82 22 58 Z" fill="none" stroke="#1a1a1a" stroke-width="1.5" opacity="0.2"/>
+  
+  <!-- Crossed Tools -->
+  <g transform="translate(60, 58)">
+    <!-- WRENCH (angled left) -->
+    <g transform="rotate(-35)">
+      <!-- Wrench handle -->
+      <rect x="0" y="-2.5" width="20" height="5" rx="2.5" fill="#1a1a1a" stroke="#1a1a1a" stroke-width="0.5"/>
+      <!-- Wrench head - outer circle -->
+      <circle cx="-8" cy="0" r="7" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+      <!-- Wrench opening - inner circle -->
+      <circle cx="-8" cy="0" r="3.5" fill="#FFD700"/>
+    </g>
+    
+    <!-- HAMMER (angled right) -->
+    <g transform="rotate(35)">
+      <!-- Hammer handle -->
+      <rect x="2" y="-2" width="18" height="4" rx="2" fill="#1a1a1a"/>
+      <!-- Hammer head - square -->
+      <rect x="-10" y="-6" width="12" height="12" rx="1" fill="#1a1a1a"/>
+      <!-- Hammer face detail -->
+      <rect x="-10" y="-2" width="3" height="8" fill="#333" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- Highlight shine on shield -->
+  <ellipse cx="45" cy="35" rx="12" ry="8" fill="white" opacity="0.15"/>
+</svg>

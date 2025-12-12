@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - HMT Tools | Get In Touch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +92-327-0177567</span>
+                    <span><i class="fas fa-envelope"></i> sp.hmt.01@gmail.com</span>
+                </div>
+                <div class="top-links">
+                    <a href="index.html#support">Support</a>
+                    <a href="index.html#dealer">Find a Dealer</a>
+                    <a href="index.html#login">Login</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html"><img src="hmtlogotagline.png" alt="HMT Tools Logo" class="logo-image"></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li ><a href="about.html">ABOUT</a></li>
+                    <li ><a href="products.html">PRODUCTS</a></li>
+                    <li ><a href="support.html">SUPPORT</a></li>
+                    <li class="active-page"><a href="contact.html">CONTACT</a></li>
+                </ul>
+                <a href="https://wa.me/923270177567?text=Hi%2C%20I%20need%20information%20about%20the%20Products." class="quote-btn" target="_blank" rel="noopener">Get Quote Now</a>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Hero Section -->
+    <section class="hero hero-secondary" style="background-image: url('products-images/contactUs.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h2>Get In Touch</h2>
+                <p>We'd love to hear from you. Let's talk about your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Main Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryType">Inquiry Type *</label>
+                            <select id="inquiryType" name="inquiryType" required>
+                                <option value="">Select an option</option>
+                                <option value="sales">Sales Inquiry</option>
+                                <option value="support">Technical Support</option>
+                                <option value="solutions">Solutions & Customization</option>
+                                <option value="partnership">Partnership Inquiry</option>
+                                <option value="careers">Careers</option>
+                                <option value="media">Media & Press</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="attachment">Attachment (optional)</label>
+                            <input type="file" id="attachment" name="attachment">
+                            <small>Max file size: 5MB</small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-note">* indicates required field</p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="contact-info-item">
+                        <h3>Headquarters</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>HMT Tools - Lahore Office</strong></p>
+                        <p>14-B Davis Road<br>
+                        Opposite Total Petrol Pump, Garhi Shahu<br>
+                        Lahore, Punjab 54000<br>
+                        Pakistan</p>
+                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +92-42-36297791-92</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> sp.hmt.01@gmail.com</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>General Contact</h3>
+                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +92-327-0177567</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> sp.hmt.01@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Mon-Fri 8am-6pm EST</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Sales Department</h3>
+                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +92-300-4006777</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> sp.hmt.01@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Mon-Fri 7am-7pm EST</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Technical Support</h3>
+                        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +92-320-5915594</p>
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> sp.hmt.01@gmail.com</p>
+                        <p><i class="fas fa-clock"></i> <strong>Hours:</strong> Available 24/7</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <h3>Follow Us</h3>
+                        <div class="social-media-links">
+                            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Our Location</h2>
+                <div class="map-container">
+                <iframe src="https://www.google.com/maps?q=14-B+Davis+Road+Garhi+Shahu+Lahore&output=embed" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Categories Section -->
+    <section class="contact-categories">
+        <div class="container">
+            <h2 class="section-title">Ways to Connect</h2>
+            <div class="contact-categories-grid">
+                <div class="contact-category-card">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h3>Sales Inquiry</h3>
+                    <p>Want to purchase products or discuss volume orders?</p>
+                    <a href="https://wa.me/923270177567" target="_blank" rel="noopener" class="btn btn-secondary">Contact Sales</a>
+                </div>
+
+                <div class="contact-category-card">
+                    <i class="fas fa-headset"></i>
+                    <h3>Technical Support</h3>
+                    <p>Need help with a product or have questions?</p>
+                    <a href="support.html" class="btn btn-secondary">Get Support</a>
+                </div>
+
+                <div class="contact-category-card">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Custom Solutions</h3>
+                    <p>Looking for customized tool kits or specific solutions?</p><a href="index.html#solution-types" class="btn btn-secondary">Explore Solutions</a>
+                </div>
+
+                <div class="contact-category-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Partnership</h3>
+                    <p>Interested in becoming a distributor or partner?</p>
+                    <a href="#contactForm" class="btn btn-secondary">Partner With Us</a>
+                </div>
+
+                <div class="contact-category-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Careers</h3>
+                    <p>Looking to join the HMT Tools team?</p>
+                    <a href="contact.html?inquiry=careers#contactForm" class="btn btn-secondary">View Careers</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ CTA Section -->
+    <section class="contact-faq-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Didn't Find What You're Looking For?</h2>
+                <p>Check our FAQ or knowledge base for instant answers</p>
+                <a href="support.html#faq" class="btn btn-primary">View FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="logo hmt.png" alt="HMT Tools Logo"></a>
+                    </div>
+                    <h3>HARD METAL TRADERS</h3>
+                    <p>Your trusted partner for professional quality tools and hardware solutions.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html#best-sellers">Hand Tools</a></li>
+                        <li><a href="products.html#best-sellers">Power Tools</a></li>
+                        <li><a href="products.html#best-sellers">Cutting Tools</a></li>
+                        <li><a href="products.html#best-sellers">Measuring Tools</a></li>
+                        <li><a href="products.html#best-sellers">Storage Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html?inquiry=careers#contactForm">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="support.html">Product Support</a></li>
+                        <li><a href="support.html#warranty">Warranty Info</a></li>
+                        <li><a href="support.html#downloads">Downloads</a></li>
+                        <li><a href="support.html#faq">FAQ</a></li>
+                        <li><a href="contact.html">Contact Support</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-contact-map">
+                <div class="footer-contact">
+                    <h4></h4>
+                    <p><i class="fas fa-map-marker-alt"></i> 14-B Davis Road, opposite Total Petrol Pump، Garhi Shahu, Lahore, Punjab 54000</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:sp.hmt.01@gmail.com">sp.hmt.01@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+923270177567">0327-0177567</a></p>
+                </div>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps?q=14-B+Davis+Road+Garhi+Shahu+Lahore&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hard Metal Traders (HMT). All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Pre-fill inquiry type from URL parameter
+        window.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const inquiryParam = urlParams.get('inquiry');
+            
+            if (inquiryParam) {
+                const inquirySelect = document.getElementById('inquiryType');
+                if (inquirySelect) {
+                    inquirySelect.value = inquiryParam;
+                }
+            }
+        });
+
+        // Contact Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                phone: document.getElementById('phone').value,
+                company: document.getElementById('company').value,
+                inquiryType: document.getElementById('inquiryType').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+            
+            // Simple validation
+            if (!formData.name || !formData.email || !formData.subject || !formData.message) {
+                alert('Please fill in all required fields');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(formData.email)) {
+                alert('Please enter a valid email address');
+                return;
+            }
+            
+            // Redirect to WhatsApp with pre-filled message
+            const whatsappMessage = `Hello! I'm ${formData.name} from ${formData.company || 'N/A'}.%0A%0AInquiry Type: ${formData.inquiryType}%0ASubject: ${formData.subject}%0A%0AMessage: ${formData.message}%0A%0AContact Details:%0AEmail: ${formData.email}%0APhone: ${formData.phone || 'N/A'}`;
+            const whatsappURL = `https://wa.me/923270177567?text=${whatsappMessage}`;
+            window.open(whatsappURL, '_blank');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+    <a href="https://wa.me/923270177567?text=Hi%2C%20I%20need%20information%20about%20the%20Products." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        <span class="whatsapp-label" aria-hidden="true">Chat on WhatsApp</span>
+    </a>
+</body>
+</html>
